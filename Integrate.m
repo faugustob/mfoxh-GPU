@@ -14,7 +14,7 @@ mcsum  = sum(mceval,2);
 v      = prod(C(:,2) - C(:,1)); % volume
 out    = v * mcsum / N; % Integral
 
-integrand = @(x,y,z) mfoxIntegrand(x,y,z);
+%integrand = @(x,y,z) mfoxIntegrand(x,y,z);
 
 % out = integral3(integrand,C(1,1),C(1,2),C(2,1),C(2,2),C(3,1),C(3,2))
 % x=1;
